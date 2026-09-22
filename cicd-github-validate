@@ -1,0 +1,47 @@
+completed	success	Add Tekton cleanup and nose tasks	CI workflow	main	push	35716526971	31s	2026-09-22T10:32:17Z
+completed	success	Add project name to README	CI workflow	main	push	35716269725	29s	2026-09-22T10:29:35Z
+completed	success	Add CI workflow	CI workflow	main	push	35712416123	23s	2026-09-22T09:47:54Z
+completed	failure	Initial commit	CI workflow	main	push	35710005248	0s	2026-09-22T09:22:28Z
+
+✓ main CI workflow · 35716526971
+Triggered via push about 7 minutes ago
+
+JOBS
+✓ build in 23s (ID 106709212112)
+
+ANNOTATIONS
+! Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v3. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+build: .github#2
+
+- "The ubuntu-latest label will migrate to Ubuntu 26 beginning October 19, 2026. For more information, see https://github.com/actions/runner-images/issues/14748"
+build: .github#1
+
+
+For more information about the job, try: gh run view --job=106709212112
+View this run on GitHub: https://github.com/sorolandry1/ci-cd-final-project/actions/runs/35716526971
+
+✓ main CI workflow · 35716526971
+Triggered via push about 7 minutes ago
+
+JOBS
+✓ build in 23s (ID 106709212112)
+  ✓ Set up job
+  ✓ Initialize containers
+  ✓ Checkout
+  ✓ Install dependencies
+  ✓ Lint with flake8
+  ✓ Run unit tests with nose
+  ✓ Post Checkout
+  ✓ Stop containers
+  ✓ Complete job
+
+ANNOTATIONS
+! Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v3. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+build: .github#2
+
+- "The ubuntu-latest label will migrate to Ubuntu 26 beginning October 19, 2026. For more information, see https://github.com/actions/runner-images/issues/14748"
+build: .github#1
+
+
+For more information about the job, try: gh run view --job=106709212112
+View this run on GitHub: https://github.com/sorolandry1/ci-cd-final-project/actions/runs/35716526971
